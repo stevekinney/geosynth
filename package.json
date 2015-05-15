@@ -1,0 +1,35 @@
+{
+  "name": "geosynth",
+  "version": "1.0.0",
+  "description": "Musical tones from around the world",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stevekinney/geosynth.git"
+  },
+  "author": "Steve Kinney",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stevekinney/geosynth/issues"
+  },
+  "homepage": "https://github.com/stevekinney/geosynth",
+  "devDependencies": {
+    "babel-core": "^5.1.13",
+    "babel-eslint": "^3.1.1",
+    "babel-loader": "^5.0.0",
+    "css-loader": "^0.12.0",
+    "eslint": "^0.21.0",
+    "sass-loader": "^0.6.0",
+    "style-loader": "^0.12.1",
+    "webpack": "^1.8.11",
+    "webpack-dev-server": "^1.8.2"
+  },
+  "dependencies": {
+    "headtrackr": "git://github.com/stevekinney/headtrackr#webpack-compatibility",
+    "jquery": "^2.1.4",
+    "octavian": "^2.0.5"
+  }
+}
